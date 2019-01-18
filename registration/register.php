@@ -1,3 +1,4 @@
+<?php include ('server.php')?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,6 +11,8 @@
     </div>
 
     <form method="post" action="register.php">
+<!--        display validation errors here-->
+        <?php include ('errors.php') ?>
         <div class="input-group">
             <label>Username</label>
             <input type="text" name="username">
