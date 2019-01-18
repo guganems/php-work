@@ -62,6 +62,11 @@
               buildProfile(response);
             }
           });
+
+          FB.api('/me/feed', function(response){
+            lastPost(response);
+            console.log(response.data[0]);
+          })
         }
 
         function buildProfile(user){
@@ -76,6 +81,17 @@
           `;
 
           document.getElementById('profile').innerHTML = profile;
+        }
+
+        function lastPost(post){
+          let postProfile = `
+          <ul class='list-group'>
+              <li class='list-group-item'>Last POST: ${post.data[0].message}</li>
+              <li class='list-group-item'>Last POST ID: ${post.data[0].id}</li>
+            </ul>
+          `;
+
+          document.getElementById('profile').innerHTML += postProfile;
         }
 
         function setElements(isLoggedIn){
