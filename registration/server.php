@@ -6,6 +6,7 @@
  * Time: 14:47
  */
 
+session_start();
 $username = "";
 $email = "";
 $errors = array();
@@ -46,5 +47,8 @@ if (isset($_POST['register'])){
         $password = md5($password_1); // encrypt password before storing it in database (security)
         $sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$password')";
         mysqli_query($db, $sql);
+        $_SESSION['username'] = $username;
+        $_SESSION['success'] = "You are now logged in";
+        header('location: index.php'); // redirect to home page
     }
 }
