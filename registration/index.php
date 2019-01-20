@@ -1,4 +1,10 @@
-<?php include ('server.php'); ?>
+<?php include ('server.php');
+
+    // if users aren't logged in, they wouldn't be able to access this page.
+    if (empty($_SESSION['username'])){
+        header('location: login.php');
+    }
+?>
 <!DOCTYPE html>
 <html>
 <head>
