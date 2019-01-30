@@ -44,6 +44,18 @@ foreach ($intnumbers as $k => $value) {
     echo "$k => $value <br />";
 }
 
+date_default_timezone_set("Etc/GMT+4");
+$hour = date('H');
+if ($hour >= 0 && $hour < 12){
+    echo "Good morning!";
+}
+elseif ($hour > 12 && $hour < 19){
+    echo "Good Afternoon";
+}
+else{
+    echo "Good Evening";
+}
+
 
 
 
