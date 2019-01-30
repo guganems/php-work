@@ -84,7 +84,9 @@ switch ($dow){
         echo $greeting . " What day is this?";
 }
 
-
+for ($iteration = 0; $iteration <= 10; $iteration++){
+    echo "$iteration";
+}
 
 
 
