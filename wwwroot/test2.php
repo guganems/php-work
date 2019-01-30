@@ -94,6 +94,14 @@ while ($sheepnumber < 11){
     $sheepnumber++;
 }
 
+$sheepnumber = 1;
+do{
+    echo "Sheep Number $sheepnumber";
+    $sheepnumber++;
+}while($sheepnumber < 11);
+$totalsheeps = $sheepnumber -1;
+echo "We count only $sheepnumber sheeps";
+
 
 
 
