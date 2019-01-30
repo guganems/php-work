@@ -3,6 +3,8 @@
     <words>
       <w>daynumber</w>
       <w>dayofweeknames</w>
+      <w>filecontents</w>
+      <w>filesize</w>
       <w>funcnames</w>
       <w>functionname</w>
       <w>getgreetingfunction</w>
