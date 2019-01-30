@@ -117,7 +117,11 @@ while (true){
     echo "Tax to be payed $taxvalue <br />";
 }
 
+function showmessage($message){
+    echo "$message <br />";
+}
 
+showmessage('This message was deployed from within a function');
 
 
 
