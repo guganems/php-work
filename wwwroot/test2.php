@@ -88,6 +88,12 @@ for ($iteration = 0; $iteration <= 10; $iteration++){
     echo "$iteration";
 }
 
+$sheepnumber = 0;
+while ($sheepnumber < 11){
+    echo "Sheep Number $sheepnumber";
+    $sheepnumber++;
+}
+
 
 
 
