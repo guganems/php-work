@@ -102,6 +102,10 @@ do{
 $totalsheeps = $sheepnumber -1;
 echo "We count only $sheepnumber sheeps";
 
+$sheepsarray = array(1, 2, 3, 4, 5, 6, 7, 8);
+foreach ($sheepsarray as $value) {
+    echo "Sheep Number $value <br />";
+}
 
 
 
