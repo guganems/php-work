@@ -1,6 +1,14 @@
 <component name="ProjectDictionaryState">
   <dictionary name="nemst">
     <words>
+      <w>daynumber</w>
+      <w>dayofweeknames</w>
+      <w>funcnames</w>
+      <w>functionname</w>
+      <w>getgreetingfunction</w>
+      <w>goodafternoon</w>
+      <w>goodevening</w>
+      <w>goodmorning</w>
       <w>greetingmessage</w>
       <w>intnumbers</w>
       <w>letternumbers</w>
