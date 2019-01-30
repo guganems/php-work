@@ -123,7 +123,7 @@ function showmessage($message){
 
 showmessage('This message was deployed from within a function');
 
-function greetingmessage(){
+function greetingmessage($showdayofweek = false){
     date_default_timezone_set("Etc/GMT+4");
     $hour = date('H');
     $dow = date('N')-1;
@@ -139,10 +139,11 @@ function greetingmessage(){
         $result = "Good Evening";
     }
 
-    $result = $result . ", today is $namesofdays[$dow]";
+    if ($showdayofweek) $result = $result . ", today is $namesofdays[$dow]";
     return $result;
 }
 
+echo greetingmessage(true);
 echo greetingmessage();
 
 
