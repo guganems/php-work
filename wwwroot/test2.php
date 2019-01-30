@@ -38,7 +38,11 @@ foreach ($intnumbers as $value){
     echo "Array member value is $value <br />";
 }
 
+$intnumbers = array("one" => 1, "two" => 2, "three" => 3, "four" => 4, "five" => 5);
 
+foreach ($intnumbers as $k => $value) {
+    echo "$k => $value <br />";
+}
 
 
 
