@@ -2,9 +2,13 @@
   <dictionary name="nemst">
     <words>
       <w>commonfunctions</w>
+      <w>contactinfo</w>
       <w>createwebpage</w>
       <w>daynumber</w>
       <w>dayofweeknames</w>
+      <w>dbhost</w>
+      <w>dbpass</w>
+      <w>dbuser</w>
       <w>filecontents</w>
       <w>filesize</w>
       <w>funcnames</w>
