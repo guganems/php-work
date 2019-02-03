@@ -1,6 +1,8 @@
 <component name="ProjectDictionaryState">
   <dictionary name="nemst">
     <words>
+      <w>commonfunctions</w>
+      <w>createwebpage</w>
       <w>daynumber</w>
       <w>dayofweeknames</w>
       <w>filecontents</w>
@@ -11,6 +13,7 @@
       <w>goodafternoon</w>
       <w>goodevening</w>
       <w>goodmorning</w>
+      <w>greetingfunction</w>
       <w>greetingmessage</w>
       <w>intnumbers</w>
       <w>letternumbers</w>
@@ -26,6 +29,8 @@
       <w>taxrate</w>
       <w>taxvalue</w>
       <w>totalsheeps</w>
+      <w>webpage</w>
+      <w>webpagecontent</w>
       <w>webpagewidth</w>
     </words>
   </dictionary>

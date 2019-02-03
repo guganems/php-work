@@ -1,0 +1,9 @@
+<html lang='en-US'>
+<head>
+<title>Writing a file using PHP</title>
+</head>
+<body>
+<pre>Good Morning, today is Sunday<br /></pre>
+<pre>THis web page was created writing a file with PHP</pre>
+</body>
+</html>
