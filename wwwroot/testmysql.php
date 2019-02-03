@@ -21,4 +21,14 @@ if ($mysqli->connect_errno){
 }
 
 echo "MySQL connection succeeded";
+
+$sql = "INSERT INTO contacts (name, email, phonenumber, subject, message) VALUES ('John Doe', 'johndoe@myemaildomain.com', '(254)0001-2345', 'Test data row', 'Testing data insertion')";
+
+if ($mysqli->query($sql) === TRUE){
+    echo "New record created successfully";
+}
+else{
+    echo "Error: " . $sql . "<br />" . $mysqli->error;
+}
+
 $mysqli->close();
