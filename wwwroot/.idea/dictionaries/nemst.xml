@@ -4,6 +4,7 @@
       <w>commonfunctions</w>
       <w>contactinfo</w>
       <w>createwebpage</w>
+      <w>datarow</w>
       <w>daynumber</w>
       <w>dayofweeknames</w>
       <w>dbhost</w>
@@ -24,6 +25,7 @@
       <w>literalstring</w>
       <w>namesofdays</w>
       <w>nemst</w>
+      <w>resultset</w>
       <w>sheepnumber</w>
       <w>sheeps</w>
       <w>sheepsarray</w>
