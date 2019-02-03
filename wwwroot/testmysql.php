@@ -31,4 +31,27 @@ else{
     echo "Error: " . $sql . "<br />" . $mysqli->error;
 }
 
+$contact_name = "Another John Doe";
+$email_addr = "anotherjohndoe@myfakedomain.com";
+$phone_number = "(654)532-1235";
+$subject = "Adding rows with parameters";
+$message = "This row was added using parameters";
+
+$sql = "INSERT INTO contacts (name, email, PHONENUMBER, SUBJECT, MESSAGE) VALUES (?, ?, ?, ?, ?)";
+
+$statement = $mysqli->stmt_init();
+
+if ($statement->prepare($sql)){
+    $statement->bind_param("sssss", $contact_name, $email_addr, $phone_number, $subject, $message);
+    $statement->execute();
+    $statement->close();
+}
+
+
+
+
+
+
+
+
 $mysqli->close();
