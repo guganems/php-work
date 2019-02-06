@@ -1,10 +1,13 @@
 <component name="ProjectDictionaryState">
   <dictionary name="nemst">
     <words>
+      <w>aravin</w>
       <w>commonfunctions</w>
       <w>contactinfo</w>
+      <w>contactswebsitehtmlsections</w>
       <w>createwebpage</w>
       <w>datarow</w>
+      <w>datatablesection</w>
       <w>daynumber</w>
       <w>dayofweeknames</w>
       <w>dbhost</w>
@@ -40,6 +43,9 @@
       <w>webpage</w>
       <w>webpagecontent</w>
       <w>webpagewidth</w>
+      <w>websitefooter</w>
+      <w>websiteheader</w>
+      <w>websitetoolbar</w>
     </words>
   </dictionary>
 </component>
