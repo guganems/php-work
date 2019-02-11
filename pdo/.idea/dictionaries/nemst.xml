@@ -2,6 +2,7 @@
   <dictionary name="nemst">
     <words>
       <w>firstname</w>
+      <w>htmlentities</w>
       <w>lastname</w>
       <w>nemst</w>
     </words>
