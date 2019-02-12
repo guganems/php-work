@@ -32,9 +32,9 @@
             color: white;
         }
 
-        #sidebar{
+        #sidemenu{
             width: 300px;
-            height: 400px;
+            height: 500px;
             background: #27ae60;
             float: left;
         }
@@ -57,16 +57,20 @@
 
 <body>
     <div id="header" class="center">
-        <img src="admin_logo.png" alt="adminLogo" id="adminLogo"/><br /> This is admin panel, please proceed with caution!
+        <img src="admin_logo.png" alt="adminLogo" id="adminLogo"/>
+        <h3>Welcome to Admin Panel</h3>
 
     </div>
 
-    <div id="sidebar">
+    <div id="sidemenu">
         <ul>
-            <li>Add Data</li>
-            <li>Delete Data</li>
-            <li>Update Data</li>
-            <a href="https://www.facebook.com/needletipson" target="_blank" style="color: black; text-decoration: none;"><li>Developer</li></a>
+            <a href="add.php" target="_blank"><li>Add</a></li>
+            <a href="delete.php" target="_blank"><li>Delete</a></li>
+            <a href="update.php" target="_blank"><li>Update</a></li>
+            <a href="search.php" target="_blank"><li>Search</a></li>
+            <a href="join.php" target="_blank"><li>View Sold Items</a></li>
+            <a href="index2.php" target="_blank"><li>Log off</a></li>
+            <a href="developers.php" target="_blank"><li>Developers</li></a>
         </ul>
     </div>
 
